@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    image-rendering: pixelated;
+}
+body{
+    display:block;
+    background-image:url("gingam_t.gif")
+}
+.wrap{
+    width:30em;
+    height:20em;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-image: url("border.gif") 7 fill round;
+    border-width: 7px;
+    border-style: solid;
+    background:white;
+}
+nav{
+    height: 10px;
+}
+ul{
+    list-style-position: inside;
+}
+h1{
+    background-image:url("dott-t-1.gif");
+}
+li{
+    background:radial-gradient(pink, rgb(255, 245, 247));
+    box-shadow: inset 0 0 5px rgb(255, 245, 247);
+    border-radius: 5px;
+    border: 1px dotted black;
+}
